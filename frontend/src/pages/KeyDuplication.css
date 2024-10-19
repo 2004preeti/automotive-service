@@ -1,0 +1,42 @@
+/* src/pages/KeyDuplication.css */
+.key-duplication-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.key-duplication-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.key-duplication-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.key-duplication-container input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.key-duplication-container button {
+  padding: 10px;
+  font-size: 18px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.key-duplication-container button:hover {
+  background-color: #218838;
+}

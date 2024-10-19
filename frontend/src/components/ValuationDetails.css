@@ -1,0 +1,17 @@
+.valuation-details {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  margin: 20px;
+  text-align: left;
+}
+
+.valuation-details h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.valuation-details ul {
+  margin-top: 10px;
+  list-style-type: square;
+}

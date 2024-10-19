@@ -1,0 +1,35 @@
+.my-garage {
+  text-align: center;
+  padding: 20px;
+}
+
+.car-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.car-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px; /* Adjust the width as needed */
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensures overflow is hidden */
+}
+
+.car-image {
+  width: 100%; /* Makes the image responsive */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 4px;
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+h1 {
+  color: black;
+}
+.garage {
+  padding-top: 5%;
+}

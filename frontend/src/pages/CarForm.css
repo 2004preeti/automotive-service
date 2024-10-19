@@ -1,0 +1,49 @@
+.car-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  padding: 20px; /* Add some padding for better spacing */
+  border: 1px solid #ddd; /* Light border around the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+.car-form h2 {
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.car-form label {
+  margin: 10px 0 5px;
+  font-weight: bold; /* Bold labels */
+}
+
+.car-form input {
+  margin-bottom: 15px; /* Space below input fields */
+  padding: 10px; /* Padding inside input fields */
+  width: 100%; /* Full width for input fields */
+  max-width: 300px; /* Limit the max width */
+  border: 1px solid #ccc; /* Light border for inputs */
+  border-radius: 4px; /* Rounded corners for inputs */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.car-form input:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+.car-form button {
+  padding: 10px 15px; /* Padding for buttons */
+  border: none; /* No border */
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color for buttons */
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.car-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

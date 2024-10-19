@@ -1,0 +1,18 @@
+/* Home.css */
+
+body {
+  margin: 0;
+  font-family: 'Londrina Sketch', cursive;
+  text-align: center;
+}
+
+.g {
+  font-family: 'Londrina Sketch', cursive;
+  padding-top: 5%;
+  font-size: 100px;
+  margin-top: 20px;
+  color: #257180;
+}
+.home {
+  background-color: #d8d2c2;
+}
